@@ -1,0 +1,31 @@
+
+.cp-wrapper{
+    display: grid;
+    grid-template-rows: 1fr 1fr 8fr 1fr;
+    height: 100%;
+}
+
+.cp-wrapper > input{
+    padding: 5px;
+    padding-left: 10px;
+    font-size: 18px;
+}
+
+.cp-wrapper > textarea{
+    padding: 5px;
+    padding-left: 10px;
+    font-family: Tahoma;
+    font-size: 20px;
+}
+
+.cp-wrapper > button{
+    padding: 5px;
+    font-family: Cambria;
+    font-size: 22px;
+    background-color: #2fc0e4;
+    border: none;
+    border-radius: 4px;
+
+}
+
+
